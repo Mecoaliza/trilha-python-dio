@@ -1,3 +1,5 @@
+# O while é usado para quando não sabemos o número exato de vezes que vai ser executado
+
 opcao = -1
 
 while opcao != 0:
