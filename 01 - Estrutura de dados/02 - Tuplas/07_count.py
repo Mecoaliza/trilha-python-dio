@@ -1,3 +1,4 @@
+# Pouco metódos nas tuplas
 cores = (
     "vermelho",
     "azul",

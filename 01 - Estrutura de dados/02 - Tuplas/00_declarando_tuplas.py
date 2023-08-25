@@ -1,8 +1,9 @@
+# Tuplas, ão imutáveis
 frutas = (
     "laranja",
     "pera",
     "uva",
-)
+) #Usar sempre a vígula no fina
 print(frutas)
 
 letras = tuple("python")
