@@ -1,3 +1,7 @@
+# Strings de múltiplas linhas ou triplas
+# Montar menu ou strings grandes cm texto formatado
+# Funciona com aspas simples e duplas
+
 nome = "Guilherme"
 
 mensagem = f"""
