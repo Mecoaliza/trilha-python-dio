@@ -1,3 +1,5 @@
+# Para saber se os elementos de a estão em b e vice versa
+
 conjunto_a = {1, 2, 3}
 conjunto_b = {4, 1, 2, 5, 6, 3}
 
