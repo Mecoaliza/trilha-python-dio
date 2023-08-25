@@ -1,3 +1,5 @@
+# Se a chave não existir o metódo adiciona, se existir ele não altera o que já tem. 
+
 contato = {"nome": "Guilherme", "telefone": "3333-2221"}
 
 contato.setdefault("nome", "Giovanna")  # "Guilherme"

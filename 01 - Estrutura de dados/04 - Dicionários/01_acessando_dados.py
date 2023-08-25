@@ -1,10 +1,12 @@
 dados = {"nome": "Guilherme", "idade": 28, "telefone": "3333-1234"}
 
+# Para acessar os valores:
+
 print(dados["nome"])  # "Guilherme"
 print(dados["idade"])  # 28
 print(dados["telefone"])  # "3333-1234"
 
-dados["nome"] = "Maria"
+dados["nome"] = "Maria"  # Sobrescrevendo o valor
 dados["idade"] = 18
 dados["telefone"] = "9988-1781"
 
