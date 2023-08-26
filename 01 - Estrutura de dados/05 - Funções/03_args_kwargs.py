@@ -1,12 +1,17 @@
+# Combinar parâmetros obrigatórios * e **
+# *args os valores vem em tupla
+# **kwargs os valores vem em dicionários
+
 def exibir_poema(data_extenso, *args, **kwargs):
-    texto = "\n".join(args)
+    texto = "\n".join(args) # Concatentando os valores args para que fique um em cada linha
     meta_dados = "\n".join([f"{chave.title()}: {valor}" for chave, valor in kwargs.items()])
     mensagem = f"{data_extenso}\n\n{texto}\n\n{meta_dados}"
     print(mensagem)
 
 
 exibir_poema(
-    "Zen of Python",
+    "Sexta Feira, 25 agosto de 2023",  # data_extenso
+    "Zen of Python",        # *args
     "Beautiful is better than ugly.",
     "Explicit is better than implicit.",
     "Simple is better than complex.",
@@ -26,6 +31,6 @@ exibir_poema(
     "If the implementation is hard to explain, it's a bad idea.",
     "If the implementation is easy to explain, it may be a good idea.",
     "Namespaces are one honking great idea -- let's do more of those!",
-    autor="Tim Peters",
+    autor="Tim Peters", # **kwargs
     ano=1999,
 )

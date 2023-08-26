@@ -1,3 +1,5 @@
+# Retornando vários valores
+
 def calcular_total(numeros):
     return sum(numeros)
 
